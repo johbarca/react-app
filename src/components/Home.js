@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 
-class Home extends React.Component{
-    constructor(props){
+import { Button } from 'antd';
+
+class Login extends Component {
+    constructor(props) {
         super(props);
-        this.state = {
-            name: 'jack'
-        }
     }
 
-    render(){
+    render() {
         return (
-            <h1> Hello {this.props.name}</h1>
+            <div>
+                <h1> Home</h1>
+                <Button>登录</Button>
+            </div>
         )
     }
 }
-export default Home;
+export default Login;

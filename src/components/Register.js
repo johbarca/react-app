@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+
 import { Button } from 'antd';
-import 'antd/dist/antd.css'
 
 class Login extends Component {
     constructor(props) {
@@ -10,8 +10,8 @@ class Login extends Component {
     render() {
         return (
             <div>
-                <h1> Login</h1>
-                <Button>Default</Button>
+                <h1> Register</h1>
+                <Button>注册</Button>
             </div>
         )
     }
