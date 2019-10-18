@@ -1,0 +1,53 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    background: rgba(8, 73, 163, 0.8);
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    margin: 0 24px;
+    padding: 15px 0;
+
+}
+
+.nav-justified {
+    width: 100%;
+    display: block;
+    list-style: none;
+}
+
+.nav-justified li {
+    display: block;
+    list-style: none;
+    padding: 10px 30px;
+    /* margin: 0 15px; */
+    float: left;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "proxima-nova", sans-serif;
+}
+
+.clearfix,.clearfix:link,.clearfix:visited,.clearfix:hover,.clearfix:active{
+    text-decoration: none;
+    color:inherit;
+}
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }

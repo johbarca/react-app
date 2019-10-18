@@ -1,19 +1,16 @@
-import React, { Component } from 'react';
+import React, {
+	Component
+} from 'react';
 
-import { Button } from 'antd';
+import Header from "./header/index";
+class Home extends Component {
+	constructor(props) {
+		super(props);
+	}
 
-class Login extends Component {
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
-        return (
-            <div>
-                <h1> Home</h1>
-                <Button>登录</Button>
-            </div>
-        )
-    }
+	render() {
+		return (<Header />
+		)
+	}
 }
-export default Login;
+export default Home;
